@@ -69,7 +69,7 @@ public class Network {
         if (name1.equals(name2)) {
             return false;
         }
-
+        
         User user1 = getUser(name1);
         User user2 = getUser(name2);
 
