@@ -85,7 +85,7 @@ public class Network {
 
         for (int i = 0; i < userCount; i++){
 
-            if (users[i].getName().equals(name) || user.follows(users[i].getName()))){
+            if (users[i].getName().equals(name) || user.follows(users[i].getName())){
                 continue;
             }
             
