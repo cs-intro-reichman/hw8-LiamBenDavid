@@ -139,7 +139,7 @@ public class Network {
 
     // Returns a textual description of all the users in this network, and who they follow.
     public String toString() {
-        String result = "Network:\n"
+        String result = "Network:\n";
         for (int i = 0; i< userCount; i++){
             result += users[i].toString() + "\n";
         }
